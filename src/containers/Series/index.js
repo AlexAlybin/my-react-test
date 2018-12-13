@@ -14,9 +14,9 @@ class Series extends Component {
     //   }
 
     componentDidMount(){
-        const series = ["Hobbit", "Test"]
+        const newSeries = ["Hobbit", "Test", "Test2"]
 
-        this.setState({ series })
+        this.setState({ series: newSeries})
     }
 
     render() {
