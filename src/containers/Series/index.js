@@ -30,7 +30,7 @@ class Series extends Component {
             }
         ]
 
-        this.setState({ series })
+        this.setState({ series})
     }
 
     render() {
